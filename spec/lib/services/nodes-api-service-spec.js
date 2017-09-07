@@ -1222,7 +1222,7 @@ describe("Http.Services.Api.Nodes", function () {
         });
     });
 
-    describe('Obms', function() {
+    /*describe('Obms', function() {
 
         var node = {
             id: '1234abcd1234abcd1234abcd',
@@ -1297,5 +1297,5 @@ describe("Http.Services.Api.Nodes", function () {
                 .to.be.rejectedWith(Errors.NotFoundError);
         });
 
-    });
+    });*/
 });

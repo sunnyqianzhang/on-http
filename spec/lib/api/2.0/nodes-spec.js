@@ -829,7 +829,7 @@ describe('2.0 Http.Api.Nodes', function () {
         });
     });
 
-    describe('OBM support', function() {
+    /*describe('OBM support', function() {
 
         var obm = {
             service: 'ipmi-obm-service',
@@ -871,6 +871,6 @@ describe('2.0 Http.Api.Nodes', function () {
                     expect(nodesApi.putObmsByNodeId).to.have.been.calledWith('123',obm);
                 });
         });
-    });
+    });*/
 
 });
